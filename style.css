@@ -1384,3 +1384,12 @@ p {
         transform: none;
     }
 }
+
+.screenshot-placeholder img {
+    display: block;
+    width: 100%;
+    max-width: 260px;
+    height: auto;
+    border-radius: 28px;
+    box-shadow: var(--shadow-small);
+}
