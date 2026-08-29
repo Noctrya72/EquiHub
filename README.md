@@ -1,4 +1,4 @@
-# Site de présentation — Écurie
+# Site de présentation — EquiHub
 
 Site statique en HTML / CSS / JavaScript prévu pour être publié sur GitHub Pages.
 
