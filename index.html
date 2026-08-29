@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2ca567">
+    <meta name="description" content="Écurie — une application simple et moderne pour gérer la vie de votre écurie.">
+    <title>Écurie — Gestion d'écurie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- =========================================================
+         NAVIGATION
+    ========================================================== -->
+    <header class="site-header" id="top">
+        <nav class="nav container">
+            <a class="brand" href="#top" aria-label="Écurie - Accueil">
+                <span class="brand-icon">🐴</span>
+                <span>Écurie</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" type="button"
+                    aria-label="Ouvrir le menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#fonctionnalites">Fonctionnalités</a>
+                <a href="#chevaux">Chevaux</a>
+                <a href="#taches">Tâches</a>
+                <a href="#securite">Sécurité</a>
+                <a class="nav-download" href="#telecharger">Télécharger</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- =====================================================
+             HERO
+        ====================================================== -->
+        <section class="hero">
+            <div class="container hero-grid">
+
+                <div class="hero-copy reveal">
+                    <span class="eyebrow">
+                        APPLICATION DE GESTION D'ÉCURIE
+                    </span>
+
+                    <h1>
+                        Toute votre écurie,
+                        <span>au même endroit.</span>
+                    </h1>
+
+                    <p class="hero-text">
+                        Écurie rassemble les informations importantes de vos
+                        chevaux, les tâches quotidiennes et le suivi de
+                        l'écurie dans une application simple et moderne.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#telecharger">
+                            Télécharger l'application
+                            <span>↓</span>
+                        </a>
+
+                        <a class="button button-secondary" href="#fonctionnalites">
+                            Découvrir les fonctionnalités
+                        </a>
+                    </div>
+
+                    <div class="hero-note">
+                        <span class="status-dot"></span>
+                        Conçue pour les membres de l'écurie
+                    </div>
+                </div>
+
+
+                <!-- Aperçu visuel sans image externe -->
+                <div class="hero-preview reveal">
+                    <div class="phone">
+                        <div class="phone-notch"></div>
+
+                        <div class="phone-screen">
+                            <div class="app-topbar">
+                                <div>
+                                    <small>Bonjour</small>
+                                    <strong>Écurie</strong>
+                                </div>
+                                <span class="app-avatar">🐴</span>
+                            </div>
+
+                            <div class="app-card app-card-green">
+                                <small>AUJOURD'HUI</small>
+                                <strong>Les tâches de l'écurie</strong>
+                                <div class="mini-progress">
+                                    <span></span>
+                                </div>
+                                <small>3 tâches terminées sur 5</small>
+                            </div>
+
+                            <div class="mini-title">Chevaux</div>
+
+                            <div class="mini-horse">
+                                <div class="mini-horse-photo">🐴</div>
+                                <div>
+                                    <strong>Bella</strong>
+                                    <small>Box 12 · Paddock A</small>
+                                </div>
+                                <span>›</span>
+                            </div>
+
+                            <div class="mini-horse">
+                                <div class="mini-horse-photo">🐴</div>
+                                <div>
+                                    <strong>Tornado</strong>
+                                    <small>Box 4 · Pré club</small>
+                                </div>
+                                <span>›</span>
+                            </div>
+
+                            <div class="mini-nav">
+                                <span class="active">⌂<small>Accueil</small></span>
+                                <span>✓<small>Tâches</small></span>
+                                <span>🐴<small>Chevaux</small></span>
+                                <span>⚙<small>Réglages</small></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             BANDEAU
+        ====================================================== -->
+        <section class="trust-strip">
+            <div class="container trust-grid">
+                <div>
+                    <strong>Simple</strong>
+                    <span>Une interface pensée pour aller à l'essentiel.</span>
+                </div>
+                <div>
+                    <strong>Centralisé</strong>
+                    <span>Les informations importantes réunies au même endroit.</span>
+                </div>
+                <div>
+                    <strong>Partagé</strong>
+                    <span>Un outil commun pour les membres de l'écurie.</span>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             FONCTIONNALITÉS
+        ====================================================== -->
+        <section class="section" id="fonctionnalites">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="eyebrow">FONCTIONNALITÉS</span>
+                    <h2>Tout ce qu'il faut,<br><span>sans le superflu.</span></h2>
+                    <p>
+                        L'application est organisée autour des besoins
+                        quotidiens d'une écurie.
+                    </p>
+                </div>
+
+                <div class="feature-grid">
+
+                    <article class="feature-card reveal">
+                        <div class="feature-icon">🐴</div>
+                        <h3>Gestion des chevaux</h3>
+                        <p>
+                            Retrouvez la fiche de chaque cheval avec ses
+                            informations, son hébergement, ses notes et son suivi.
+                        </p>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <div class="feature-icon">✓</div>
+                        <h3>Tâches quotidiennes</h3>
+                        <p>
+                            Organisez les tâches de l'écurie et visualisez
+                            rapidement ce qui doit être fait.
+                        </p>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <div class="feature-icon">📅</div>
+                        <h3>Tâches récurrentes</h3>
+                        <p>
+                            Gérez les tâches quotidiennes et hebdomadaires,
+                            avec des jours définis et des tâches permanentes.
+                        </p>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <div class="feature-icon">🔔</div>
+                        <h3>Alertes</h3>
+                        <p>
+                            Ajoutez des alertes et des rappels pour ne pas
+                            oublier les informations importantes.
+                        </p>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <div class="feature-icon">📋</div>
+                        <h3>Journaux d'activité</h3>
+                        <p>
+                            Consultez et exportez l'historique des actions
+                            effectuées sur les tâches.
+                        </p>
+                    </article>
+
+                    <article class="feature-card reveal">
+                        <div class="feature-icon">✏️</div>
+                        <h3>Informations modifiables</h3>
+                        <p>
+                            Les membres autorisés peuvent mettre à jour les
+                            informations des chevaux directement depuis leur fiche.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             CHEVAUX
+        ====================================================== -->
+        <section class="section section-soft" id="chevaux">
+            <div class="container split-section">
+
+                <div class="showcase-copy reveal">
+                    <span class="eyebrow">LES CHEVAUX</span>
+                    <h2>Une fiche complète pour chaque cheval.</h2>
+                    <p>
+                        Nom, sexe, date de naissance, race, robe, propriétaire,
+                        box, paddock, santé, traitements, vétérinaire,
+                        maréchalerie et notes : toutes les informations utiles
+                        sont accessibles depuis une seule fiche.
+                    </p>
+
+                    <ul class="check-list">
+                        <li>Informations d'identité</li>
+                        <li>Hébergement et paddock</li>
+                        <li>Suivi santé et vétérinaire</li>
+                        <li>Maréchalerie</li>
+                        <li>Consignes et notes</li>
+                        <li>Photo du cheval</li>
+                    </ul>
+                </div>
+
+                <div class="showcase-panel reveal">
+                    <div class="fake-window">
+                        <div class="fake-window-top">
+                            <span></span><span></span><span></span>
+                        </div>
+
+                        <div class="horse-profile-demo">
+                            <div class="horse-photo-large">🐴</div>
+                            <div>
+                                <small>FICHE DU CHEVAL</small>
+                                <h3>Bella</h3>
+                                <p>Box 12 · Paddock A</p>
+                            </div>
+                        </div>
+
+                        <div class="demo-lines">
+                            <div><span>Sexe</span><strong>Femelle</strong></div>
+                            <div><span>Race</span><strong>—</strong></div>
+                            <div><span>Propriétaire</span><strong>—</strong></div>
+                            <div><span>Vétérinaire</span><strong>—</strong></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             TÂCHES
+        ====================================================== -->
+        <section class="section" id="taches">
+            <div class="container split-section reverse">
+
+                <div class="showcase-panel reveal">
+                    <div class="task-demo">
+                        <div class="task-demo-header">
+                            <div>
+                                <small>AUJOURD'HUI</small>
+                                <h3>Tâches</h3>
+                            </div>
+                            <span class="task-count">5</span>
+                        </div>
+
+                        <div class="task-row done">
+                            <span class="task-check">✓</span>
+                            <div>
+                                <strong>Vérifier les abreuvoirs</strong>
+                                <small>Matin</small>
+                            </div>
+                        </div>
+
+                        <div class="task-row done">
+                            <span class="task-check">✓</span>
+                            <div>
+                                <strong>Nourrir les chevaux</strong>
+                                <small>Matin</small>
+                            </div>
+                        </div>
+
+                        <div class="task-row">
+                            <span class="task-check"></span>
+                            <div>
+                                <strong>Sortir les chevaux</strong>
+                                <small>Journée</small>
+                            </div>
+                        </div>
+
+                        <div class="task-row">
+                            <span class="task-check"></span>
+                            <div>
+                                <strong>Nettoyer les boxes</strong>
+                                <small>Soir</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="showcase-copy reveal">
+                    <span class="eyebrow">LES TÂCHES</span>
+                    <h2>Ne plus se demander ce qui a été fait.</h2>
+                    <p>
+                        Les tâches sont regroupées par moment de la journée.
+                        Les tâches hebdomadaires peuvent être associées à un
+                        ou plusieurs jours de la semaine.
+                    </p>
+
+                    <div class="info-pills">
+                        <span>🌅 Matin</span>
+                        <span>☀️ Journée</span>
+                        <span>🌙 Soir</span>
+                        <span>📅 Hebdomadaire</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             CAPTURES D'ÉCRAN
+        ====================================================== -->
+        <section class="section section-soft" id="captures">
+            <div class="container">
+
+                <div class="section-heading centered reveal">
+                    <span class="eyebrow">L'APPLICATION</span>
+                    <h2>Découvrez l'interface.</h2>
+                    <p>
+                        Remplace ces emplacements par les véritables captures
+                        d'écran de ton application lorsque tu les auras.
+                    </p>
+                </div>
+
+                <div class="screenshots-grid">
+                    <div class="screenshot-placeholder reveal">
+                        <div class="placeholder-phone">
+                            <span>📱</span>
+                            <strong>Capture d'écran</strong>
+                            <small>Accueil</small>
+                        </div>
+                    </div>
+
+                    <div class="screenshot-placeholder reveal">
+                        <div class="placeholder-phone">
+                            <span>📱</span>
+                            <strong>Capture d'écran</strong>
+                            <small>Chevaux</small>
+                        </div>
+                    </div>
+
+                    <div class="screenshot-placeholder reveal">
+                        <div class="placeholder-phone">
+                            <span>📱</span>
+                            <strong>Capture d'écran</strong>
+                            <small>Tâches</small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             SÉCURITÉ / COMPTE
+        ====================================================== -->
+        <section class="section" id="securite">
+            <div class="container security-box reveal">
+
+                <div class="security-icon">🔐</div>
+
+                <div>
+                    <span class="eyebrow">ACCÈS À L'ÉCURIE</span>
+                    <h2>Les membres se connectent à leur compte.</h2>
+                    <p>
+                        L'application permet de travailler avec les données
+                        de l'écurie tout en contrôlant les actions disponibles
+                        selon les droits de l'utilisateur.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             TÉLÉCHARGEMENT
+        ====================================================== -->
+        <section class="download-section" id="telecharger">
+            <div class="container download-box reveal">
+
+                <div>
+                    <span class="eyebrow">TÉLÉCHARGEMENT</span>
+                    <h2>Prêt à utiliser Écurie ?</h2>
+                    <p>
+                        Télécharge l'application Android et rejoins l'écurie
+                        depuis ton téléphone.
+                    </p>
+                </div>
+
+                <div class="download-actions">
+                    <!-- Remplace href par le chemin réel de ton APK -->
+                    <a class="button button-white" href="downloads/EcurieApp.apk">
+                        Télécharger l'APK
+                        <span>↓</span>
+                    </a>
+                    <small>Android · APK</small>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <span class="brand-icon">🐴</span>
+                <div>
+                    <strong>Écurie</strong>
+                    <span>Gestion d'écurie</span>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <a href="#fonctionnalites">Fonctionnalités</a>
+                <a href="#telecharger">Télécharger</a>
+                <a href="#top">Retour en haut ↑</a>
+            </div>
+
+            <p>© <span id="year"></span> Écurie</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
