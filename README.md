@@ -98,6 +98,31 @@ EquiHub utilise notamment :
 | iOS | À venir |
 
 ---
+## Pourquoi iOS n'est pas encore disponible ?
+
+La version iOS d'EquiHub n'est pas encore distribuable.
+
+Le développement de l'application est réalisé avec **Capacitor**, ce qui permet de créer une version Android et une version iOS à partir du même projet.
+
+Cependant, la génération et la signature d'une application iOS nécessitent un environnement **macOS avec Xcode**. Apple impose également la signature de l'application avec les outils et certificats Apple nécessaires à sa distribution.
+
+Actuellement, le développement d'EquiHub est effectué sur **Windows**. Il n'est donc pas possible de générer et signer correctement l'IPA destinée aux appareils iOS depuis cet environnement.
+
+### Android
+
+La version Android peut être générée et signée directement depuis Windows avec Android Studio.
+
+### iOS
+
+La version iOS pourra être préparée dès qu'un **Mac** sera disponible pour :
+
+- ouvrir le projet iOS avec Xcode ;
+- configurer la signature Apple ;
+- générer l'application iOS ;
+- tester l'application sur iPhone ;
+- préparer sa distribution.
+
+**La version iOS est donc prévue, mais actuellement en attente d'un environnement macOS.**
 
 ## Installation
 
@@ -110,23 +135,3 @@ La dernière version est disponible dans les **Releases GitHub** du projet.
 **Dernière version :**
 
 [EquiHub — Releases](https://github.com/Noctrya72/EquiHub/releases/latest)
-
----
-
-## Développement
-
-### Prérequis
-
-Pour développer EquiHub, il faut notamment disposer de :
-
-- Node.js
-- npm
-- Android Studio
-- un environnement Java/Android configuré
-
-### Installation du projet
-
-Cloner le dépôt :
-
-```bash
-git clone https://github.com/Noctrya72/EquiHub.git
