@@ -4,7 +4,7 @@
 
 ## Présentation
 
-**EquiHub** est une application destinée aux membres d'une écurie.
+**EquiHub** est une application destinée aux écuries.
 
 Elle permet de regrouper au même endroit :
 
