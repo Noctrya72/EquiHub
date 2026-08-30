@@ -124,6 +124,16 @@ La version iOS pourra être préparée dès qu'un **Mac** sera disponible pour :
 
 **La version iOS est donc prévue, mais actuellement en attente d'un environnement macOS.**
 
+## Version Windows
+
+Une version **Windows (.exe)** d'EquiHub est actuellement en cours de développement.
+
+L'objectif est de proposer une version de l'application directement utilisable sur ordinateur Windows, en complément des versions mobiles.
+
+Cette version est encore en développement et **aucune date de sortie n'est actuellement prévue**.
+
+> La disponibilité de la version Windows sera annoncée lorsque celle-ci sera suffisamment stable pour être distribuée.
+
 ## Installation
 
 ### Android
